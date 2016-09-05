@@ -1,5 +1,13 @@
 [
     {
+        "version": "1.0.1",
+        "downloadUrl": "https://github.com/mmikkel/limitblocktype/archive/master.zip",
+        "date": "2016-09-05T10:00:54.326Z",
+        "notes": [
+            "[Fixed] Fixed a bug"
+        ]
+    },
+    {
         "version": "1.0.0",
         "downloadUrl": "https://github.com/mmikkel/limitblocktype/archive/master.zip",
         "date": "2016-09-03T11:20:54.326Z",
