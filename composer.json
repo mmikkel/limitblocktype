@@ -1,0 +1,14 @@
+{
+	"name": "mmikkel/limitblocktype",
+	"description": "Adds option to limit individual Matrix block types",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Mats Mikkel Rummelhoff",
+			"homepage": "http://mmikkel.no"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
