@@ -39,7 +39,7 @@ class LimitBlockTypePlugin extends BasePlugin
 
         $isAjaxRequest = craft()->request->isAjaxRequest();
         $segments = craft()->request->segments;
-        $actionSegment = $segments[count($segments) - 1];
+        $actionSegment = array_pop($segments) ?: '';
 
         if (!$isAjaxRequest) {
             
