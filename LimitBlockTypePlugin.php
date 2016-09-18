@@ -16,7 +16,7 @@ namespace Craft;
 class LimitBlockTypePlugin extends BasePlugin
 {
 
-    protected $_version = '1.0.0';
+    protected $_version = '1.0.1';
     protected $_schemaVersion = '1.0';
     protected $_developer = 'Mats Mikkel Rummelhoff';
     protected $_developerUrl = 'http://mmikkel.no';
