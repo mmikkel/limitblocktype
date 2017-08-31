@@ -1,4 +1,4 @@
-# Limit Block Type plugin 1.0.1 for Craft CMS ![Craft 2.6](https://img.shields.io/badge/craft-2.6-green.svg?style=flat-square)
+# Limit Block Type plugin 1.0.2 for Craft CMS ![Craft 2.6](https://img.shields.io/badge/craft-2.6-green.svg?style=flat-square)
 
 Craft CMS plugin adding option to limit individual Matrix block types.  
 
@@ -40,6 +40,10 @@ Please report any bugs, feature requests or other issues [here](https://github.c
 
 
 ## Limit Block Type Changelog
+
+### 1.0.2 –– 2017.08.31
+
+* Fixes an issue where Limit Block Type would break password resets (undefined index)
 
 ### 1.0.1 -- 2016.09.03
 

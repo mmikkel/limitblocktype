@@ -16,7 +16,7 @@ namespace Craft;
 class LimitBlockTypePlugin extends BasePlugin
 {
 
-    protected $_version = '1.0.1';
+    protected $_version = '1.0.2';
     protected $_schemaVersion = '1.0';
     protected $_developer = 'Mats Mikkel Rummelhoff';
     protected $_developerUrl = 'http://mmikkel.no';
@@ -47,7 +47,7 @@ class LimitBlockTypePlugin extends BasePlugin
             
             // Check request parameters
             $vars = craft()->request->getPost();
-            if (!empty($vars) && $vars['action'] === 'fields/saveField' && $vars['type'] === 'Matrix') {
+            if (!empty($vars) && isset($vars['action']) && $vars['action'] === 'fields/saveField' && $vars['type'] === 'Matrix') {
                 // This is so hacky I don't even
                 craft()->runController('limitBlockType/saveField');
             }

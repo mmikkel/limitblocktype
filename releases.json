@@ -1,5 +1,13 @@
 [
     {
+        "version": "1.0.2",
+        "downloadUrl": "https://github.com/mmikkel/limitblocktype/archive/master.zip",
+        "date": "2017-08-05T10:00:54.326Z",
+        "notes": [
+            "[Fixed] Fixes an issue where Limit Block Type would break password resets (undefined index)"
+        ]
+    },
+    {
         "version": "1.0.1",
         "downloadUrl": "https://github.com/mmikkel/limitblocktype/archive/master.zip",
         "date": "2016-09-05T10:00:54.326Z",
